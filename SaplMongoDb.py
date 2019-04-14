@@ -1,7 +1,7 @@
 from pymongo import MongoClient   #importing mongoclient from pymongo
 
 #CLIENT CONNECTION
-client                   = MongoClient("mongodb://apiUser:MCk#al$hslk2a4hd@35.200.183.21:27017/admin")
+client                   = MongoClient("mongodb://apiUser:nljnuibjbhbsix@78.097.059.59:28917/admin")
                                        # mongodb://  <USERNAME>  :  <PASSWORD>  @   ADDRESS  /  DATABASE
 db                       = client['matrix']  # selecting database
 txnDetailsCollection     = db["txnDetails"]  # selecting collection
